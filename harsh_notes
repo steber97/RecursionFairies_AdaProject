@@ -1,0 +1,13 @@
+pr_all_update has only 5 states - rejected
+revisions.txt - update list for some data - rejected
+us-census-data - no states mentioned - rejected
+CPI_forecast - values on national scale - rejected
+Life Expectancy Data - year based - year to keep - latest
+Alcohol Data - year based - year to keep - latest
+4-3-19hous-factsheets-data - subsidized housing data - keep all sheets
+diabetes data - year based - year to keep - latest
+mortality rate data - year based - year to keep - latest
+venous_thromboembolic - national average year wise - rejected
+18dbfigure - tax information - year wise national average - rejected
+appartment_list - national averages for different types of houses - rejected
+
