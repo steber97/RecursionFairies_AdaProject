@@ -37,6 +37,9 @@ We found some interesting datasets, we could not use them all (or add something 
 
 # A list of internal milestones up until project milestone 2
 For each dataset, we will extract the data of interest. We will create different maps and statistics for each of these aspects, after recollecting all the information required. The idea is to "merge" the different aspects into an interactive index, in which you can select with sliders the amount of importance to attribute to each feature, in order to create an interactive map of which state is perfect for your desires!
+Our work for milestone 2 will be divided in two parts:
+- First two weeks: loading, cleaning datasets and extracting data of our interest
+- Last two weeks: analysis on the extracted data, visualization of the results, preparation of our interactive index
 
 # Questions for TAa
 - Is the datasets list for the project odd? Are there too few, or too many datasets?
