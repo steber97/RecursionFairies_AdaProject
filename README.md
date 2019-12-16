@@ -47,3 +47,15 @@ Our work for milestone 2 will be divided in two parts:
 - Do you know if there are some other datasets that we could use?
 
 [1] http://hdr.undp.org/en/content/human-development-index-hdi
+
+
+
+
+
+# Installation Requirements
+`conda install -c plotly plotly`
+then follow the below instruction
+https://github.com/plotly/plotly.py#jupyterlab-support-python-35
+
+`conda install psutil`
+
