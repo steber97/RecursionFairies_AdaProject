@@ -140,6 +140,8 @@ As shown on the website, we reached this objective, even if it can only be valid
 - Loris Pilotto: data cleaning and analysis. ML model implementation.
 - Stefano Huber: data cleaning and analysis. Creation of the website.
 
+- The presentation will be held by Stefano Huber, and the other members of the group will assist during the creation of the poster.
+
 
 
 ## You can find our data story on the USA Human Development Index [here](https://steber97.github.io/) !
