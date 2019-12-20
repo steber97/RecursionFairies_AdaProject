@@ -100,7 +100,7 @@ As discussed, the features belong to 4 categories. So we splitted the dataset ac
 ### machine learning regression:
 
 We were finally able to apply machine learning techniques to our data to see if a regressor would give a good prediction of the HDI with our features.\
-We applied linear regression, ridge regression and SMR. For the 3 algorithms, we compared the performances of standard data or normalized data and with/without polynomial expansion. Then we applied the same algorithms but also applying PCA on the entire features or on the 4 precomputed classes (i.e. education, health, security and economy) separately. The results are shown in the `ADA_project_final_notebook.ipynb` file. The main conclusion of all this computation is that ridge regression with polynomial expansion is the most accurate regressor on the entire dataset and still close to the best when applied on fewer features.\
+We applied linear regression, ridge regression and SVR. For the 3 algorithms, we compared the performances of standard data or normalized data and with/without polynomial expansion. Then we applied the same algorithms but also applying PCA on the entire features or on the 4 precomputed classes (i.e. education, health, security and economy) separately. The results are shown in the `ADA_project_final_notebook.ipynb` file. The main conclusion of all this computation is that ridge regression with polynomial expansion is the most accurate regressor on the entire dataset and still close to the best when applied on fewer features.\
 One of our goals was to be able to modify the HDI based on one of the 4 classes, allowing to have a personalised score for each state. For this, we take a weight vector for the above 4 classes and appropriately weigh the coefficients of the linear regression model for HDI to predict our new personalized HDI.
 
 ### website creation:
@@ -130,7 +130,7 @@ One of our goals was to be able to modify the HDI based on one of the 4 classes,
 
 1. Our first goal was to show the feasibility to predict the Human Development Index based on non-official parameters.\
 This objective has been proved.\
-2. Our second objectif was to be able to have a more personalized index.\
+2. Our second objective was to be able to have a more personalized index.\
 As shown on the website, we reached this objective, even if it can only be validated empirically.
 
 ### Contribution list:
