@@ -112,15 +112,14 @@ One of our goals was to be able to modify the HDI based on one of the 4 classes,
 - `ADA_project_final_notebook.ipynb`: ***principal notebook; all the analysis is in it***
 - `crime.ipynb`: cleaning and analysing of crime features
 - `csv_datasets.ipynb`: cleaning and analysing of csv table features
-- `data_story_and_maps.ipynb`: 
-- `DataAnalysis_Milestone3.ipynb`: 
+- `data_story_and_maps.ipynb`: copy of `ADA_project_final_notebook.ipynb` to have interactive graphs
 - `diabetes_physical_activity_alcohol_obesity.ipynb`: cleaning and analysing of diabetes, physical activity, alcohol and obesity features
-- `HDIOutputAndInputs.ipynb`: copy of `ADA_project_final_notebook.ipynb` to have interactive graphs
+- `HDIOutputAndInputs.ipynb`: notebook that combine inputs (i.e. features) and outputs (i.e. HDI) for our ML task 
 - `homelessData.ipynb`: cleaning and analysing of homeless features
 - `Life_expectancy_alcohol_diabetes.ipynb`: cleaning and analysing of life expectancy, alcohol and diabetes features
 - `LinearRidgeRegressionAndSVR.ipynb`: comparisons of various ML algorithms
 - `McDonalds.ipynb`: cleaning and analysing of McDonalds features
-- `Milestone2.ipynb`: notebook from milestone 2
+- `Milestone2.ipynb`: notebook that combine the result tables of all milestone 2 data cleaning
 - `rentData.ipynb`: cleaning and analysing of rent features
 - `school_dataset.ipynb`: cleaning and analysing of school features
 - `toHaveNormalData.ipynb`: to save the pickle file with all the features
