@@ -60,9 +60,7 @@ Our work for milestone 2 will be divided in two parts:
 Once we had all the data, our first task was to clean it. We came across a variety of challenges during this task:
 - The first dilemme was to decide on which locations we were going to apply the prediction. USA is a big and complex country. It is composed of states, federal districts, territories, ... After discussion, we decided to apply our data analysis on all the 50 states and the District of Colombia to have more global results.
 - The most frequent challenge was missing data. For example the state of Hawaii was missing in the rent dataset or life expectancy was missing for Maine and Wisconsin. We found all the missing data on internet, allowing to have a precise recovery (since otherwise we would have had to drop this features or approximate the missing values.
-- Another challenge was to select meaningful information for our model. Since we had to predict the HDI for only 51 locations (50 states and 1 district), we decided to be quite selectif to avoid overfiting problems with our machine learning prediction.
-
-Given the high number of datasets that we have analyzed, we decided to perform the data cleaning process in separate files, in order to avoid one single notebook with a huge amount of lines of code, all independent from each other.
+- Another challenge was to select meaningful information for our model. Since we had to predict the HDI for only 51 locations (50 states and 1 district), we decided to be quite selective to avoid overfiting problems with our machine learning prediction.
 
 The notebook that we have written in order to clean and analyze the datasets are:
 - `crime.ipynb`: a crime dataset is analyzed, we hope to extract good insights on the quality of life given the number of crimes committed in all states
@@ -90,6 +88,9 @@ Further, we may try to split our features into meaningful subsets (health, crime
 To conclude, a further improvement could be trying to test the robustness of our model: it means that, whenever we drop any column (for instance if it happens that any of the organizations computing our metrics fails), we are still able to learn a good enough predictor for the HDI. The fact that our dataset has so many correlated features means that probably we can manage the loss of some columns, without losing much accuracy.
 
 # Milestone 3 checklist: 
+
+### Notebook
+The main notebook for the milestone 3 is the `ADA_project_final_notebook.ipynb`.
 
 ### Data preprocessing:
 
@@ -134,11 +135,10 @@ As shown on the website, we reached this objective, even if it can only be valid
 
 ### Contribution list:
 
-- Angelo Sciullo: research of data related to HDI, data cleaning, analysis and preprocessing.
-- Harshvardhan: research of data related to HDI, data cleaning and analysis. ML and weighted prediction implementation.
-- Loris Pilotto: research of data related to HDI, data cleaning and analysis. ML implementation.
-- Stefano Huber: research of data related to HDI, data cleaning and analysis. Creation of the data story website.
-
+- Angelo Sciullo: data cleaning and analysis and preprocessing and most of the Data Story.
+- Harshvardhan: data cleaning and analysis. ML and weighted prediction implementation.
+- Loris Pilotto: data cleaning and analysis. ML model implementation.
+- Stefano Huber: data cleaning and analysis. Creation of the website.
 
 
 
